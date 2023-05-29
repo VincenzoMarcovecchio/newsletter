@@ -1,13 +1,74 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+@font-face {
+  font-family: 'Roboto-Bold';
+  src: local('Roboto-Bold'), url(./fonts/Roboto-Bold.ttf) format('truetype');
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: local('Roboto-Regular'), url(./fonts/Roboto-Regular.ttf) format('truetype');
+}
+
+* {
+    font-family:'Roboto-Regular' !important;
+  
+}
+
+h2 {
+    font-family:'Roboto-Bold' !important;
+    font-size: 2rem !important;
+    margin-bottom: 1rem; line-height: 46px;
+}
+
+
+input {
+  width: 100%;
+}
+.css-i6bazn {
+max-width: 400px !important;
+}
+.css-2d0qu8 {
+  padding: 0.5rem;
+}
+
+@media (min-width:777px){
+  .container {
+height: 100vh;
+}
+.css-i6bazn {
+  display: flex !important;
+  flex-direction: row-reverse;
+  max-width: 805px !important;
+
+}
+
+p {
+  padding-right: 0.8rem;
+}
+.css-1n4v68j {
+        max-width: 805px;
+    margin: auto;
+    height: 530px;
+    padding: 1.5rem;
+}
+.css-1ggllun {
+      max-width: 805px;
+    margin: auto;
+    height: 530px;
+}
+.css-2d0qu8 {
+  padding: 7.1rem;
+}
+.css-xwq9lr {
+  display: flex !important;
+flex-direction: column !important;
+align-items: flex-start !important;
+justify-content: center;
+height: 500px;
+margin: auto;
+}
+h2 {
+    font-size: 2.8rem !important;
+    margin-bottom: 1.5rem !important;
+}
 }
